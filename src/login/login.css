@@ -1,0 +1,38 @@
+/* src/login/login.css */
+.login-container {
+  background-color: #fff; /* Cor de fundo da tela de login */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(93, 91, 91, 0.1); /* Sombra para destacar a tela de login */
+  width: 400px; /* Ajuste a largura conforme necessário */
+  height: 300px; /* Ajuste a altura conforme necessário */
+  margin: auto; /* Para centralizar o contêiner na página */
+}
+
+h2 {
+  color: #000; /* Cor do texto "Login" */
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: #000; /* Cor do texto "Email" e "Senha" */
+}
+
+.input-field {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  color: antiquewhite;
+}
+
+button {
+  background-color: #000000; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
